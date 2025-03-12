@@ -260,7 +260,7 @@ tr:nth-last-of-type(odd) {
         "header header"
         "nav hero"
         "nav main"
-        "footer footer"
+        "nav footer"
         / 180px 1fr;
     }
   }
