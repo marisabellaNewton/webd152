@@ -177,13 +177,12 @@ footer {
     }
     #wrapper {
       display: grid;
-      grid-template-areas:
+      grid-template:
         "header header"
         "nav hero"
         "nav main"
-        "footer footer";
-      grid-template-rows: 180px 1fr 1fr auto;
-      grid-template-columns: auto 1fr;
+        "nav footer"
+        / 180px 1fr;
     }
   }
 }
