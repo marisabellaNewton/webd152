@@ -433,3 +433,48 @@ footer {
   border-top: none; /* Remove the top border if any */
   box-shadow: none; /* Remove any extra box shadow if applied */
 }
+/* About Us Page Styles */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.column {
+  width: 48%;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+/* Style for images and video */
+.column img,
+.column video {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .column {
+    width: 100%;
+    padding: 0;
+  }
+  .column img,
+  .column video {
+    max-width: 100%;
+  }
+}
+
+/* Address Styling */
+.address {
+  margin-top: 1em;
+  text-align: left;
+  font-size: 0.9em;
+}
